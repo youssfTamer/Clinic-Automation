@@ -3,26 +3,26 @@ import { MessageSquare, Bot, CalendarCheck, Bell } from "lucide-react";
 const steps = [
   {
     icon: MessageSquare,
-    title: "1. Patient Sends Message",
-    description: "A patient messages your clinic on WhatsApp asking for an appointment or pricing.",
+    title: "1. المريض يرسل رسالة",
+    description: "يرسل المريض رسالة لعيادتك على واتساب طالباً موعداً أو معلومات عن الأسعار.",
     color: "bg-blue-100 text-blue-600"
   },
   {
     icon: Bot,
-    title: "2. AI Responds Instantly",
-    description: "Our AI understands the request (in Arabic or English) and replies immediately, 24/7.",
+    title: "2. الذكاء الاصطناعي يرد فوراً",
+    description: "ذكاؤنا الاصطناعي يفهم الطلب (بالعربية أو الإنجليزية) ويرد فوراً، على مدار الساعة.",
     color: "bg-purple-100 text-purple-600"
   },
   {
     icon: CalendarCheck,
-    title: "3. Appointment is Booked",
-    description: "The AI guides them to available slots and confirms the booking in your calendar.",
+    title: "3. يتم حجز الموعد",
+    description: "يوجه الذكاء الاصطناعي المريض إلى الأوقات المتاحة ويؤكد الحجز في تقويمك.",
     color: "bg-green-100 text-green-600"
   },
   {
     icon: Bell,
-    title: "4. Auto-Reminders Sent",
-    description: "Patients get automatic reminders before their visit to reduce no-shows.",
+    title: "4. إرسال التذكيرات التلقائية",
+    description: "يحصل المرضى على تذكيرات تلقائية قبل زيارتهم لتقليل الغيابات.",
     color: "bg-orange-100 text-orange-600"
   }
 ];
@@ -32,12 +32,12 @@ export default function Solution() {
     <section id="solution" className="py-24 bg-slate-50">
       <div className="container px-4 mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <span className="text-secondary font-bold tracking-wider uppercase text-sm mb-2 block">How It Works</span>
+          <span className="text-secondary font-bold tracking-wider uppercase text-sm mb-2 block">كيف يعمل</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-6">
-            From "Hello" to "Booked" — Completely Automated
+            من "مرحباً" إلى "محجوز" — أتمتة كاملة
           </h2>
           <p className="text-slate-600 text-lg">
-            Clinic AI acts as your best receptionist who never sleeps, never misses a call, and speaks perfect Arabic and English.
+            Clinic AI يعمل كأفضل موظف استقبال لديك—لا ينام أبداً، ولا يفوت مكالمة، ويتحدث العربية والإنجليزية بطلاقة.
           </p>
         </div>
 

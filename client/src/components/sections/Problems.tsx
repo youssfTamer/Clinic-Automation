@@ -3,29 +3,29 @@ import { PhoneMissed, Clock, UserX, Banknote, MessageCircle } from "lucide-react
 const problems = [
   {
     icon: PhoneMissed,
-    title: "Missed Calls",
-    description: "You miss 25% of calls during busy hours. That's 25% of your revenue gone.",
+    title: "المكالمات الفائتة",
+    description: "تفوتك 25% من المكالمات خلال ساعات الذروة. هذا يعني فقدان 25% من إيراداتك.",
     color: "text-red-500",
     bg: "bg-red-50"
   },
   {
     icon: MessageCircle,
-    title: "No WhatsApp Automation",
-    description: "Patients want to book via WhatsApp. Manual replies take too long and you lose them.",
+    title: "لا يوجد أتمتة على واتساب",
+    description: "المرضى يريدون الحجز عبر واتساب. الردود اليدوية تستغرق وقتاً طويلاً وتفقدهم.",
     color: "text-orange-500",
     bg: "bg-orange-50"
   },
   {
     icon: Clock,
-    title: "Manual Follow-ups",
-    description: "Receptionists waste hours calling for reminders instead of focusing on patients in the clinic.",
+    title: "المتابعة اليدوية",
+    description: "الاستقبال يضيع ساعات في الاتصال للتذكيرات بدلاً من التركيز على المرضى في العيادة.",
     color: "text-yellow-600",
     bg: "bg-yellow-50"
   },
   {
     icon: Banknote,
-    title: "Lost Revenue",
-    description: "No-shows and missed appointments cost the average clinic $3,000+ per month.",
+    title: "الإيرادات المفقودة",
+    description: "الغيابات والمواعيد الفائتة تكلف العيادة المتوسطة أكثر من 3,000 دولار شهرياً.",
     color: "text-slate-600",
     bg: "bg-slate-100"
   }
@@ -37,10 +37,10 @@ export default function Problems() {
       <div className="container px-4 mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl font-heading font-bold text-slate-900 mb-4">
-            Is Your Clinic Losing Patients?
+            هل تفقد عيادتك المرضى؟
           </h2>
           <p className="text-slate-600 text-lg">
-            Running a clinic is hard. The biggest problem isn't medical care—it's communication.
+            إدارة العيادة صعبة. المشكلة الأكبر ليست الرعاية الطبية—بل التواصل.
           </p>
         </div>
 

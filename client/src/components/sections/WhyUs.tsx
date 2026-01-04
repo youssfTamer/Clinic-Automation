@@ -1,12 +1,12 @@
 import { CheckCircle2 } from "lucide-react";
 
 const benefits = [
-  "Designed specifically for clinics & doctors",
-  "Full Arabic & English Language Support",
-  "Setup in less than 48 hours",
-  "Affordable monthly pricing",
-  "No technical team needed",
-  "24/7 Local Support"
+  "مصمم خصيصاً للعيادات والأطباء",
+  "دعم كامل للغة العربية والإنجليزية",
+  "إعداد في أقل من 48 ساعة",
+  "أسعار شهرية معقولة",
+  "لا حاجة لفريق تقني",
+  "دعم محلي على مدار الساعة"
 ];
 
 export default function WhyUs() {
@@ -18,10 +18,10 @@ export default function WhyUs() {
       <div className="container px-4 mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-8">
-            Why Clinics Choose Clinic AI?
+            لماذا تختار العيادات Clinic AI؟
           </h2>
           <p className="text-blue-100 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
-            We understand the unique challenges of healthcare in the region. We built this tool to solve them.
+            نحن نفهم التحديات الفريدة للرعاية الصحية في المنطقة. بنينا هذه الأداة لحلها.
           </p>
 
           <div className="grid md:grid-cols-2 gap-x-12 gap-y-6 text-left max-w-3xl mx-auto">

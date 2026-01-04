@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
              <span className="font-heading font-bold text-2xl text-primary block mb-4">Clinic<span className="text-secondary">AI</span></span>
              <p className="text-slate-600 max-w-sm mb-6">
-               The #1 AI automation platform for clinics and medical centers in the Middle East. Stop missing calls, start booking patients.
+               منصة الأتمتة بالذكاء الاصطناعي الأولى للعيادات والمراكز الطبية في الشرق الأوسط. توقف عن فقدان المكالمات، ابدأ بحجز المرضى.
              </p>
              <div className="flex gap-4">
                <a href="#" className="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 hover:text-primary hover:border-primary transition-colors">
@@ -24,28 +24,28 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-bold text-slate-900 mb-4">Product</h4>
+            <h4 className="font-bold text-slate-900 mb-4">المنتج</h4>
             <ul className="space-y-3 text-slate-600">
-              <li><a href="#features" className="hover:text-primary">Features</a></li>
-              <li><a href="#solution" className="hover:text-primary">How it Works</a></li>
-              <li><a href="#pricing" className="hover:text-primary">Pricing</a></li>
-              <li><a href="#" className="hover:text-primary">Integrations</a></li>
+              <li><a href="#features" className="hover:text-primary">الميزات</a></li>
+              <li><a href="#solution" className="hover:text-primary">كيف يعمل</a></li>
+              <li><a href="#pricing" className="hover:text-primary">الأسعار</a></li>
+              <li><a href="#" className="hover:text-primary">التكاملات</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-bold text-slate-900 mb-4">Company</h4>
+            <h4 className="font-bold text-slate-900 mb-4">الشركة</h4>
             <ul className="space-y-3 text-slate-600">
-              <li><a href="#" className="hover:text-primary">About Us</a></li>
-              <li><a href="#" className="hover:text-primary">Contact</a></li>
-              <li><a href="#" className="hover:text-primary">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-primary">Terms of Service</a></li>
+              <li><a href="#" className="hover:text-primary">من نحن</a></li>
+              <li><a href="#" className="hover:text-primary">اتصل بنا</a></li>
+              <li><a href="#" className="hover:text-primary">سياسة الخصوصية</a></li>
+              <li><a href="#" className="hover:text-primary">شروط الخدمة</a></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-slate-200 pt-8 text-center text-slate-500 text-sm">
-          &copy; {new Date().getFullYear()} Clinic AI. All rights reserved.
+          &copy; {new Date().getFullYear()} Clinic AI. جميع الحقوق محفوظة.
         </div>
       </div>
     </footer>

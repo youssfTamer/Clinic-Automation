@@ -17,10 +17,10 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Problems", to: "problems" },
-    { name: "How It Works", to: "solution" },
-    { name: "Features", to: "features" },
-    { name: "Why Us", to: "why-us" },
+    { name: "المشاكل", to: "problems" },
+    { name: "كيف يعمل", to: "solution" },
+    { name: "الميزات", to: "features" },
+    { name: "لماذا نحن", to: "why-us" },
   ];
 
   return (
@@ -55,7 +55,7 @@ export default function Navbar() {
               className="bg-secondary hover:bg-secondary/90 text-white font-semibold rounded-full px-6"
               onClick={() => window.open("https://wa.me/1234567890", "_blank")}
             >
-              Book a Demo
+              احجز عرض تجريبي
             </Button>
           </div>
 
@@ -93,7 +93,7 @@ export default function Navbar() {
                 className="w-full bg-secondary hover:bg-secondary/90 text-white font-semibold rounded-full"
                 onClick={() => window.open("https://wa.me/1234567890", "_blank")}
               >
-                Book a Free Demo
+                احجز عرض تجريبي مجاني
               </Button>
             </div>
           </div>

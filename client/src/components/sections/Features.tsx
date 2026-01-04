@@ -3,33 +3,33 @@ import { MessageCircle, Bot, Calendar, Settings, ShieldCheck, BarChart } from "l
 const features = [
   {
     icon: MessageCircle,
-    title: "WhatsApp Automation",
-    description: "Handle bookings, cancellations, and inquiries directly on WhatsApp—where your patients already are."
+    title: "أتمتة واتساب",
+    description: "تعامل مع الحجوزات والإلغاءات والاستفسارات مباشرة على واتساب—حيث يتواجد مرضاك بالفعل."
   },
   {
     icon: Bot,
-    title: "Smart AI Chatbot",
-    description: "Trained on your clinic's specific data. Answers questions about prices, services, and location automatically."
+    title: "روبوت ذكي بالذكاء الاصطناعي",
+    description: "مدرب على بيانات عيادتك الخاصة. يجيب على الأسئلة حول الأسعار والخدمات والموقع تلقائياً."
   },
   {
     icon: Calendar,
-    title: "Appointment Reminders",
-    description: "Reduce no-shows by 40% with automated confirmation messages and reminders 24h before visits."
+    title: "تذكيرات المواعيد",
+    description: "قلل الغيابات بنسبة 40% مع رسائل التأكيد التلقائية والتذكيرات قبل 24 ساعة من الزيارة."
   },
   {
     icon: Settings,
-    title: "Easy Setup",
-    description: "No coding skills required. We set everything up for you. You just turn it on and watch bookings grow."
+    title: "إعداد سهل",
+    description: "لا حاجة لمهارات البرمجة. نحن نعد كل شيء لك. فقط شغله وشاهد الحجوزات تنمو."
   },
   {
     icon: ShieldCheck,
-    title: "Secure & Private",
-    description: "Enterprise-grade security to keep your patient data safe and compliant."
+    title: "آمن وخاص",
+    description: "أمان على مستوى المؤسسات للحفاظ على بيانات مرضاك آمنة ومتوافقة."
   },
   {
     icon: BarChart,
-    title: "Google Sheets / CRM Sync",
-    description: "All appointments are instantly synced to your Google Calendar, Sheets, or existing CRM."
+    title: "مزامنة Google Sheets / CRM",
+    description: "جميع المواعيد تتم مزامنتها فوراً مع Google Calendar أو Sheets أو نظام CRM الموجود لديك."
   }
 ];
 
@@ -41,13 +41,13 @@ export default function Features() {
           
           <div className="lg:w-1/3 sticky top-24">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-6 leading-tight">
-              Everything You Need to Run Your Clinic on Autopilot
+              كل ما تحتاجه لتشغيل عيادتك على الطيار الآلي
             </h2>
             <p className="text-slate-600 text-lg mb-8">
-              Focus on treating patients, not answering phones. Our suite of tools handles the administrative busywork for you.
+              ركز على علاج المرضى، وليس الرد على الهاتف. مجموعة أدواتنا تتعامل مع الأعمال الإدارية المرهقة نيابة عنك.
             </p>
             <button className="text-primary font-bold hover:text-primary/80 flex items-center gap-2 group transition-colors">
-              Explore all features <span className="group-hover:translate-x-1 transition-transform">→</span>
+              استكشف جميع الميزات <span className="group-hover:-translate-x-1 transition-transform">←</span>
             </button>
           </div>
 
